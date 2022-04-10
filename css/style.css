@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*=========Corpo do curriculo=======*/
+#container {
+  width: 56.35rem;
+  height: 55.5rem;
+  margin: 1.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgb(23, 23, 59);
+  box-shadow: 0.5rem rgb(23, 23, 59, 0.2);
+  background-color: white;
+}
+
+/*=======Header======*/
+
+#header {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  position: relative;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  background-color: rgb(23, 23, 59);
+}
+
+#header #perfil {
+  width: 8rem;
+  border-top-left-radius: 0.3rem;
+}
+
+#header h1 {
+  color: white;
+  font-weight: 500;
+}
+
+#header #cabecalho {
+  padding-left: 2rem;
+}
+
+#header #cabecalho p {
+  color: white;
+  font-weight: 500;
+}
+
+#header #infos {
+  display: flex;
+  gap: 2rem;
+  color: rgb(117, 117, 117);
+}
+
+#header #infos img {
+  width: 1rem;
+  padding-right: 0.3rem;
+  color: rgb(117, 117, 117);
+}
+
+ion-icon {
+  padding-right: 0.3rem;
+}
+
+.infos-pessoais {
+  display: flex;
+  align-items: center;
+  margin-top: 1.8rem;
+}
+
+/*=======Corpo======*/
+#corpo {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+#corpo h1 {
+  color: rgb(117, 117, 117);
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/*=======Main======*/
+#main {
+  width: 25rem;
+  height: 40rem;
+}
+
+.main-experiencia,
+.main-cursos {
+  padding-top: 2rem;
+}
+
+/*=======side======*/
+#side {
+  width: 20rem;
+  height: auto;
+  border-left: 1px solid black;
+}
+
+#side-infos {
+  padding-left: 2rem;
+}
+
+.side-competencias,
+.side-idiomas,
+.side-interesses {
+  padding-top: 2rem;
+}
+
+.barra-lideranca {
+  width: 5rem;
+  height: 0.4rem;
+  background-color: rgb(23, 23, 59);
+}
+
+.barra-html {
+  width: 8rem;
+  height: 0.4rem;
+  background-color: rgb(23, 23, 59);
+}
+
+.barra-css {
+  width: 8rem;
+  height: 0.4rem;
+  background-color: rgb(23, 23, 59);
+}
+
+.barra-js {
+  width: 3rem;
+  height: 0.4rem;
+  background-color: rgb(23, 23, 59);
+}
+
+.barra-idioma {
+  width: 5rem;
+  height: 0.4rem;
+  background-color: rgb(23, 23, 59);
+}
+
+.linguagens{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.linguagens img{
+  width: 1rem;
+  padding-right: 0.5rem;
+}
